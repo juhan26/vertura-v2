@@ -1,6 +1,6 @@
-# ochi Clone Website
+# Vertura Clone Website
 
-This project is a clone website of ochi, built using React.js, Tailwind CSS, Framer Motion, GSAP, and Locomotive Scroll. ochi is a fictional brand known for its sleek and modern design, and this project aims to replicate its design and functionality.
+This project is a clone website of vertura, built using React.js, Tailwind CSS, Framer Motion, GSAP, and Locomotive Scroll. vertura is a fictional brand known for its sleek and modern design, and this project aims to replicate its design and functionality.
 
 ## Features
 
@@ -59,7 +59,7 @@ This command will generate optimized production-ready assets in the `build` dire
 ## Folder Structure
 
 ```
-ochi-clone/
+vertura-clone/
 │
 ├── public/            # Public assets and HTML template
 ├── src/               # Source code
