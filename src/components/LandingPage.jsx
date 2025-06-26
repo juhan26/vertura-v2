@@ -20,7 +20,7 @@ const LandingPage = () => {
                     initial={{ width: 0 }}
                     animate={{ width: "9vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    className="w-[9vw] h-[5.5vw] bg-red-600 
+                    className="w-[9vw] h-[5.5vw] bg-gradient-to-r from-[#205eab] to-[#1865c4]
                          mt-3 relative rounded-md mr-[1vw]"
                   ></motion.div>
                 )}
