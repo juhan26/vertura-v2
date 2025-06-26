@@ -40,7 +40,7 @@ const Features = () => {
                     <motion.span initial={{y: "100%"}} animate={cards[1]} transition={{ease: [0.22, 1, 0.36, 1], delay: index*0.05}} className='inline-block font-bold' key={index}>{item}</motion.span>
                 ))}</h1>
                 <div className='card w-full h-full rounded-xl overflow-hidden'>
-                    <img className='w-full h-full bg-cover ' src="/src/assets/gean3.jpeg" alt="" />
+                    <img className='w-full h-full bg-cover ' src="public/gean3.jpeg" alt="" />
                 </div>
               </motion.div>
 

@@ -71,7 +71,7 @@ export default function PremiumIntro() {
                 transition={{ delay: 1.2, duration: 0.5 }}
               >
                 <img
-                  src="src/assets/logo2.png"
+                  src="public/logo2.png"
                   alt="Vertura Icon"
                   width={20}
                   height={20}
@@ -210,7 +210,7 @@ export default function PremiumIntro() {
             transition={{ duration: 1 }}
           >
             <motion.img
-              src="src/assets/vertura.png"
+              src="public/vertura.png"
               alt="Vertura Logo"
               className="h-20 md:h-64"
               initial={{ opacity: 0, y: 20 }}

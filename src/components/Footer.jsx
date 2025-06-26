@@ -16,7 +16,7 @@ const Footer = () => {
             Opening
           </h1>
         </div>
-        <img className="w-32 h-12 object-cover" src="/src/assets/vertura.png" alt="Vertura Logo" />
+        <img className="w-32 h-12 object-cover" src="public/vertura.png" alt="Vertura Logo" />
       </div>
 
       <div className="w-1/2">

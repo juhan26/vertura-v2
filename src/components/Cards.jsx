@@ -6,7 +6,7 @@ const Cards = () => {
 
         <div className='cardcontainer w-1/2 h-[25vw]'>
             <div className="card relative rounded-xl w-full h-full bg-[#2b5376] flex items-center justify-center">
-                <img className='w-[20vw]' src="/src/assets/vertura.png" alt="" />
+                <img className='w-[20vw]' src="public/vertura.png" alt="" />
                 <button className='absolute left-[2vw] bottom-[2vw] px-[1vw] py-[0.5vw] border-2 rounded-full text-[#CDEA68] border-[#CDEA68]'>&copy;2024-2025</button>
             </div>
         </div>

@@ -30,7 +30,7 @@ export default function Home() {
       {!started ? (
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-white bg-black/50">
           <img
-            src="src/assets/vertura.png"
+            src="public/vertura.png"
             alt="Vertura Logo"
             className="w-48 md:w-72 mb-8"
           />
