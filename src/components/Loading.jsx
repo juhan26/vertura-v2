@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import logo2 from "../../public/logo2.png"; // Adjust the path as necessary
+import verturaLogo from "../../public/vertura.png"; // Adjust the path as necessary
 
 export default function PremiumIntro() {
   const [step, setStep] = useState(0);
@@ -71,7 +73,7 @@ export default function PremiumIntro() {
                 transition={{ delay: 1.2, duration: 0.5 }}
               >
                 <img
-                  src="public/logo2.png"
+                  src={logo2}
                   alt="Vertura Icon"
                   width={20}
                   height={20}
@@ -210,7 +212,7 @@ export default function PremiumIntro() {
             transition={{ duration: 1 }}
           >
             <motion.img
-              src="public/vertura.png"
+              src={verturaLogo}
               alt="Vertura Logo"
               className="h-20 md:h-64"
               initial={{ opacity: 0, y: 20 }}

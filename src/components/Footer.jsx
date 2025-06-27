@@ -1,4 +1,5 @@
 import React from "react";
+import verturaLogo from "../../public/vertura.png"; // Adjust the path as necessary
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
             Opening
           </h1>
         </div>
-        <img className="w-32 h-12 object-cover" src="public/vertura.png" alt="Vertura Logo" />
+        <img className="w-32 h-12 object-cover" src={verturaLogo} alt="Vertura Logo" />
       </div>
 
       <div className="w-1/2">

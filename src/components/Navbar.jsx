@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../../public/vertura.png';
 
 const Navbar = () => {
     return (
         <div className="fixed z-[999] w-full px-20 py-8 font-['Neue Montreal'] flex justify-between items-center shadow-md">
             <div className="logo flex items-center">
-                <img className="w-32 h-12 object-cover" src="/public/vertura.png" alt="Vertura Logo" />
+                <img className="w-32 h-12 object-cover" src={logo} alt="Vertura Logo" />
             </div>
 
             <div className="links flex gap-10">

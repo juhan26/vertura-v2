@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import banner from '../../public/banner.png' // Adjust the path as necessary
 
 const Eyes = () => {
 
@@ -19,7 +20,7 @@ const Eyes = () => {
 
   return (
     <div className='eyes w-full h-screen overflow-hidden'>
-        <div data-scroll data-scroll-speed="-0.7" className='relative w-full h-full bg-cover bg-center bg-[url("/src/assets/banner.png")]'>
+        <div data-scroll data-scroll-speed="-0.7" className='relative w-full h-full bg-cover bg-center' style={{ backgroundImage: `url(${banner})` }}>
 
             <div className="absolute flex gap-[5vw] top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
                 {/* eye 1 */}
