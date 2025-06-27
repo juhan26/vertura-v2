@@ -4,7 +4,7 @@ import mayonk from "../../public/mayonk.jpeg";
 const About = () => {
   return (
     <div className="w-full p-[5vw] bg-black rounded-tl-3xl rounded-tr-3xl text-white">
-      <h1 className='font-["Neue_Montreal"] text-[4vw] leading-[4vw] tracking-tight sm:text-[6vw] sm:leading-[6vw]'>
+      <h1 className='font-["Neue_Montreal"] text-[4vw] leading-[4vw] tracking-tight sm:text-[3vw] sm:leading-[5vw]'>
         VERTURA is a streetwear brand that bridges the gap between urban culture
         and high-quality fashion, creating pieces that speak to the modern
         generation's desire for authenticity and style.
